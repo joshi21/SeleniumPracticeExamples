@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  
+  <test name="Test Basic test case">
+    <classes>
+      <class name="testNG.Basic"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test Car test case">
+    <classes>
+      <class name="testNG.Car"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test skipped test case">
+    <classes>
+      <class name="testNG.Skipped"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test dependency test case">
+    <classes>
+      <class name="testNG.Dependency"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
+
+
+  
